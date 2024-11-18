@@ -1,27 +1,37 @@
+const recipeList = document.querySelector(".recipeList");
+const cargarMasboton = document.querySelector(".CargarMas")
 
-document.getElementById("#CargarMas"),addEventListener("click", function (){
+let skip = 0;
+const limit = 10;
 
-	fetch('https://dummyjson.com/recipes?limit=10&skip=0&select=name,image')
+cargarMasboton.addEventListener("click", function (){
+	fetch(`https://dummyjson.com/recipes?limit=${limit}&skip=${skip}`)
+
 	.then(function(response){
 	return response.json();
 })
 	.then(function(data){
-		const recipeList = document.querySelector(".recetas")
-		let receta = ' ';
+		if (data.recipes && data.recipes.length > 0) {
+		let recetas = ' ';
 
-		for(i = 0; i < data.results.length; i ++) {
-
-			const recetas = data.results[i];
-			receta +=
+		for(i = 0; i < data.recipes.length; i ++) {
+			const receta = data.recipes[i];
+			recetas +=
 			`<article>
-				<img src='${recetas.image}' alt='${recetas.name}'>
-				<p>Nombre: <a href="receta.html?id=${recetas.id}"> ${recetas.name}</p> </a> 
-				<p>Dificultad:${recetas.difficulty}</p>
-				<p>`
+				<img src='${receta.image}' alt='${receta.name}' class="img-recipe">
+				<p>Nombre: <a href="receta.html?id=${receta.id}"> ${receta.name}</p> </a> 
+				<p>Dificultad:${receta.difficulty}</p>
+			</article>`;
 		}
-	console.log(data);
+	recipeList.innerHTML += recetas;
+	skip += limit;
+	} else{
+		cargarMasboton.innerHTML= ("No se encuentran mas recetas")
+		cargarMasboton.disabled = true;
+	}
 })
 	.catch(function(error){
-	console.log('El error es: ' + error);
+	console.log(error);
 })
 })
+cargarMasboton.click();

@@ -22,8 +22,6 @@
 }
 
 
-
-
 .body_login{
     font-family: Arial, sans-serif;
     background-color:white;
@@ -144,4 +142,57 @@
     font-family:Arial, Helvetica, sans-serif;
     padding: 50px;
     margin: 10px;
+}
+
+.recipeList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+    font-family: Playfair;
+}
+
+.recipeList article{
+    width: 250px;
+    border: 2px solid #EEE4E1;
+    border-radius: 8px;
+    box-shadow: 5px;
+}
+
+.recipeList article p{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.recipeList article p a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.recipeList article p a:hover{
+    text-decoration: underline;
+    color: #C5A38F;
+}
+
+.img-recipe{
+    width: 250px;
+    border-bottom: 2px solid #EEE4E1;
+    color: #333;
+}
+
+.CargarMas{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #918C8A;
+    border-radius: 5px;
+    background: #C0B8B6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.CargarMas:hover{
+    background-color: #EEE4E1;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);;
 }

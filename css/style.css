@@ -6,7 +6,7 @@
 
 .footer{
     color: white;
-    background-color: rgba(255, 192, 203, 0.693);
+    background-color: #c69b7c;
     justify-content: center;
     display: flex;
     padding: 30px ;
@@ -18,12 +18,13 @@
     margin: 10px;
     font-size: 20px;
     list-style:none ;
+    font-family: Playfair
    
 }
 
 
 .body_login{
-    font-family: Arial, sans-serif;
+    font-family: Playfair;
     background-color:white;
     display: flex;
     justify-content: center;
@@ -74,7 +75,7 @@
 .btn {
     width: 100%;
     padding: 10px;
-    background-color: rgba(255, 192, 203, 0.693);
+    background-color: #dbbba6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -83,7 +84,7 @@
 }
 
 .btn:hover {
-    background-color: rgba(255, 192, 203, 0.693);
+    background-color:#dbbba6;
 }
 
 
@@ -91,7 +92,7 @@
     display: block;
     text-align: center;
     margin-top: 10px;
-    color:rgba(255, 192, 203, 0.693);
+    color: #c69b7c;
     text-decoration: none;
 }
 
@@ -109,10 +110,11 @@
 }
 .navegacion{
     color: whitesmoke;
-    background-color:palevioletred;
+    background-color: #c69b7ce3;
     border-radius: 10px;
-    border-color: palevioletred;
-    font-family:Arial, Helvetica, sans-serif;
+    border-color:  #c69b7c;
+    font-family: Playfair;
+    
 }
 .logo{
     display: flex;
@@ -120,7 +122,7 @@
 }
 .titulo{
     font-weight: lighter;
-    color: palevioletred;
+    color:  #c69b7ce5;
     filter: drop-shadow(2px 2px 2px);
     text-align: center;
 }
@@ -132,14 +134,14 @@
     display:flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color: palevioletred;
+    background-color:  #dbbba6;
     height: 50px;
   
 }
 .link{
     text-decoration: none;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Playfair;
     padding: 50px;
     margin: 10px;
 }
@@ -195,4 +197,86 @@
 .CargarMas:hover{
     background-color: #EEE4E1;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);;
+}
+
+
+
+.body_register {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+
+
+.register-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #dbbba6;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.labell {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.inputt {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.boton {
+    width: 100%;
+    padding: 10px;
+    background-color:   #dbbba6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color:  #dbbba6;
+}
+
+.login-link {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color:   #dbbba6;
+    font-size: 12px;
+    margin-top: 5px;
 }

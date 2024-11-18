@@ -7,8 +7,64 @@
     <link rel="stylesheet" href="../grupo8_prog1_com1/css/style.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <div class="barradenav">
+            <form type action="validarbusqueda" method="get">
+                <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta">
+                <button class= "navegacion"  type="submit" class="button">Buscar</button>
+            </form>
+        </div>
+        <h1 class="titulo"> NOVA</h1>
+        <div class="logo">
+            <img class="img1" src="img/Tsty.png">
+        </div>
+        <nav>
+            <ul class="navegador">
+                <li><a class="link" href="./index.html">HOME</a></li>
+                <li><a class="link" href="./categories.html">CATEGORIAS</a> </li>
+                <li><a class="link" href="./login.html">LOGIN</a></li>
+                <li><a class="link" href="./registro.html">REGISTRO</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main  class="body_register">
+            <section class="register-container">
+                <form id="register-form" class="register-form">
+                    <h2 class="titulo">Registro</h2>
+                    
+                    <div class="form-group">
+                        <label class="labell" for="email">Email</label>
+                        <input class="inputt" type="email" id="email" name="email" placeholder="Ingresa tu correo">
+                        <p class="error-message" id="email-error"></p>
+                    </div>
+    
+                    <div class="form-group">
+                        <label class="labell" for="password">Contraseña</label>
+                        <input class="inputt" type="password" id="password" name="password" placeholder="Crea una contraseña">
+                        <p class="error-message" id="password-error"></p>
+                    </div>
+    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="terminos" name="terminos">
+                            Acepto los Términos y Condiciones
+                        </label>
+                        <p class="error-message" id="terms-error"></p>
+                    </div>
+    
+                    <div class="form-group">
+                        <button type="submit" class="boton">Registrarme</button>
+                    </div>
+    
+                    <div class="form-group">
+                        <a href="login.html" class="login-link">Ya tengo una cuenta</a>
+                    </div>
+                </form>
+            </section>
+    </main>
     <footer>
         <footer>
             <ol class="footer">

@@ -100,3 +100,48 @@
 .registro-link:hover {
     text-decoration: underline;
 }
+.bodyindex{
+    background-image: url(../img/imgfondo.avif);
+}
+    
+.barradenav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navegacion{
+    color: whitesmoke;
+    background-color:palevioletred;
+    border-radius: 10px;
+    border-color: palevioletred;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;  
+}
+.titulo{
+    font-weight: lighter;
+    color: palevioletred;
+    filter: drop-shadow(2px 2px 2px);
+    text-align: center;
+}
+.img1{
+   width: 200px;
+  
+}
+.navegador{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: palevioletred;
+    height: 50px;
+  
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 10px;
+}

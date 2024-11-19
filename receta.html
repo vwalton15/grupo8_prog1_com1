@@ -7,16 +7,41 @@
     <link rel="stylesheet" href="../grupo8_prog1_com1/css/style.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <div class="barradenav">
+            <form type action="validarbusqueda" method="get">
+                <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta">
+                <button class= "navegacion"  type="submit" class="button">Buscar</button>
+            </form>
+        </div>
+        <h1 class="titulo"> NOVA</h1>
+        <div class="logo">
+            <img class="img1" src="img/Tsty.png">
+        </div>
+        <nav>
+            <ul class="navegador">
+                <li><a class="link" href="./index.html">HOME</a></li>
+                <li><a class="link" href="./categories.html">CATEGORIAS</a> </li>
+                <li><a class="link" href="./login.html">LOGIN</a></li>
+                <li><a class="link" href="./registro.html">REGISTRO</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="nombre-receta"></h1>
+        <img src="" alt="" class="img-receta">
+        <p class="tiempo-receta"></p>
+        <p class="categoria-receta"></p>
+        <p class="instrucciones-receta"></p>
+    </main>
     <footer>
-        <footer>
-            <ol class="footer">
-                <li class="integrantes">Paloma Frea<br></li>
-                <li class="integrantes">Milagros Galarce<br></li>
-                <li class="integrantes">Victoria Walton <br></li>
-            </ol>
-        </footer>
+        <ol class="footer">
+            <li class="integrantes">Paloma Frea<br></li>
+            <li class="integrantes">Milagros Galarce<br></li>
+            <li class="integrantes">Victoria Walton <br></li>
+        </ol>
     </footer>
+    <script src="../grupo8_prog1_com1/java/receta.js"></script>
 </body>
 </html>

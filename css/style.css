@@ -279,4 +279,38 @@
     text-decoration: underline;
 }
 
+@media (max-width: 420px){
+.footer{
+    height: 50px;
+    border-radius: 20px;
+}
+.titulo{
+    padding: 20px;
+}
+.tituloprincipal{
+    text-align: center;
+    padding: 15px;
+}
+.padrebtn{
+    display: flex;
+    justify-content: center;
+}
+.integrantes{
+    font-size: 18px;
+    margin: 0px;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    padding: 0px;
+}
+.navegador{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+}
 

@@ -18,13 +18,13 @@
     margin: 10px;
     font-size: 20px;
     list-style:none ;
-    font-family: Playfair
+    font-family: Josefin Sans
    
 }
 
 
 .body_login{
-    font-family: Playfair;
+    font-family: Josefin Sans;
     background-color:white;
     display: flex;
     justify-content: center;
@@ -147,7 +147,7 @@
 }
 
 .frase-main{
-    font-family: Playfair Display;
+    font-family: Josefin Sans;
     margin: 20px;
     padding: 10px;
 }

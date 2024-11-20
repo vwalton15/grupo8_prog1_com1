@@ -16,11 +16,11 @@ fetch(url)
         let categoria = document.querySelector("#categoria-receta")
         let instrucciones = document.querySelector("#instrucciones-receta")
     
-        nombre.innerHTML += `${data.nombre}`
-        imagen.src = `${data.img}`
-        tiempo.innerHTML += `${data.tiempo}`
-        categoria.innerHTML += `${data.categoria}`
-        instrucciones.innerHTML += `${data.instrucciones}`
+        nombre.innerHTML += `${data.name}`
+        imagen.src = `${data.image}`
+        tiempo.innerHTML += `${data.cookTimeMinutes}`
+        categoria.innerHTML += `${data.mealType}`
+        instrucciones.innerHTML += `${data.instructions}`
     
 })
     .catch(function(error){

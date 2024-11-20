@@ -279,6 +279,37 @@
     text-decoration: underline;
 }
 
+#nombre-receta{
+    margin: 30px;
+    font-size: 50px;
+    font-family: Josefin Sans;
+}
+#img-receta{
+    width: 450px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.info-receta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-receta p {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#instrucciones-receta{
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
 @media (max-width: 420px){
 .footer{
     height: 50px;

@@ -102,18 +102,23 @@
 .bodyindex{
     background-image: url(../img/imgfondo.avif);
 }
-    
+.navegador0{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+   
+}
+
+
 .barradenav{
     display: flex;
-    justify-content: flex-end;
-    
+    flex-direction: row;
+    align-items: left;
+    padding:10px;
 }
-.navegacion{
-    color: whitesmoke;
-    background-color: #c69b7ce3;
-    border-radius: 10px;
-    border-color:  #c69b7c;
-    font-family: Playfair;
+.barradenav0{
+    display: flex;
+    justify-content: space-between;
     
 }
 .logo{
@@ -121,35 +126,59 @@
     justify-content: center;  
 }
 .titulo{
-    font-weight: lighter;
+    font-family: Playfair;
     color:  #c69b7ce5;
-    filter: drop-shadow(2px 2px 2px);
-    text-align: center;
+    font-size: 25px ;
+    margin: 0px;
+}
+.subtitulo{
+    font-size: 15px;
+    color: #555;
+    font-family: Josefin Sans;
+
+}
+.titulo-subtitulo-index{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .img1{
-   width: 200px;
+   width: 120px;
   
 }
 .navegador{
     display:flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color:  #dbbba6;
-    height: 50px;
+    align-items: center;
+    
   
 }
 .link{
     text-decoration: none;
-    color: white;
-    font-family: Playfair;
-    padding: 50px;
-    margin: 10px;
+    color: #555;
+    font-family: Josefin Sans;
+    padding: 10px;
+    margin: 20px;
 }
+.search-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.search-button{
+    padding: 5px 10px;
+    font-size: 10px;
+    color: #E6BEAE;
 
+}
 .frase-main{
     font-family: Josefin Sans;
     margin: 20px;
     padding: 10px;
+    font-weight: lighter;
 }
 
 .recipeList{
@@ -195,10 +224,11 @@
     margin: 20px;
     padding: 10px;
     font-size: 20px;
-    color: #918C8A;
+    color: #ffffff;
     border-radius: 5px;
-    background: #C0B8B6;
+    background:#c69b7c ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border:#c69b7c;
 }
 .CargarMas:hover{
     background-color: #EEE4E1;

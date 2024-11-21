@@ -6,22 +6,22 @@
     <link rel="stylesheet" href="../grupo8_prog1_com1/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
     <title>Nova</title>
 </head>
-<body class="bodyindex">
-    <header>
-        <div class="barradenav">
-            <form type action="validarbusqueda" method="get">
-                <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta">
-                <button class= "navegacion"  type="submit" class="button">Buscar</button>
-            </form>
-        </div>
-        <h1 class="titulo"> NOVA</h1>
-        <div class="logo">
-            <img class="img1" src="img/Tsty.png">
-        </div>
-        <nav>
+<body>
+    <header class="barradenav0">
+        <article class="barradenav">
+            <div class="logo">
+                <img class="img1" src="img/Tsty.png">
+            </div>
+            <div class="titulo-subtitulo-index">
+                <h1 class = "titulo">NOVA</h1>
+                <p class="subtitulo"> El rincon del sabor</p>
+            </div>
+        </article>
+        
+        <nav class="navegador 0">
             <ul class="navegador">
                 <li><a class="link" href="./index.html">HOME</a></li>
                 <li><a class="link" href="./categories.html">CATEGORIAS</a> </li>
@@ -30,10 +30,15 @@
 
             </ul>
         </nav>
-
+        <div class="search-cart">
+        <form type action="validarbusqueda" method="get">
+            <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta">
+            <button class= "search-button"  type="submit" class="button">Buscar</button>
+        </form>
+    </div>
     </header>
     <main>
-        <h1 class="frase-main">Empeza a usar tu cocina</h1>
+        <h1 class="frase-main">Empeza a usar tu cocina...</h1>
         <section class="recipeList"></section>
         <div class="padrebtn">
             <button class="CargarMas">Cargar Mas</button>

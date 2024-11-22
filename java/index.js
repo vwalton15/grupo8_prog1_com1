@@ -19,7 +19,7 @@ cargarMasboton.addEventListener("click", function (){
 			recetas +=
 			`<article>
 				<img src='${receta.image}' alt='${receta.name}' class="img-recipe">
-				<p><a href="receta.html?id=${receta.id}"> ${receta.name}</p></a> 
+				<p><a href="receta.html?id=${receta.id}">${receta.name}</p></a> 
 				<p>Dificultad: ${receta.difficulty}</p>
 			</article>`;
 		}

@@ -218,9 +218,10 @@
 }
 
 .img-recipe{
-    width: 250px;
+    width: 246px;
     border-bottom: 2px solid #EEE4E1;
     color: #333;
+    border-radius: 7px;
 }
 
 .CargarMas{

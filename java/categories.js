@@ -5,14 +5,20 @@ fetch('https://dummyjson.com/recipes/tags')
     return response.json();
 })
 .then(function(data){
-    let categorias = ' ';
+    const itemsCategories = document.querySelector('.itemsCategories')
 
+    let categorias = '';
   
-    for (let i = 0; i < data.tags.length; i++) {
-        const categoria = data.tags[i];
+    for (let i = 0; i < data.length; i++) {
+        const categoria = data[i];
         categorias += 
-        `<div>
+        `<ol>
+         <li><a href="./category.html?"></a> ${categoria}</li>
+         </ol>
             `
-        
     }
+    itemsCategories.innerHTML = categorias;
 })
+.catch (function (error){
+    console.log(error)
+});

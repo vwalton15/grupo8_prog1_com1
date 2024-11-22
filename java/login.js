@@ -19,7 +19,7 @@ formulario.addEventListener("submit", function (event) {
     }
 
     if(verdad){
-        formulario.action = "index.html";
+        
         formulario.submit();
     }
 })

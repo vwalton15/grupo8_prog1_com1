@@ -19,7 +19,7 @@ fetch(url)
         nombre.innerHTML += `${data.name}`
         imagen.src = `${data.image}`
         tiempo.innerHTML += `${data.cookTimeMinutes}`
-        categoria.innerHTML += `${data.mealType}`
+        categoria.innerHTML += `${data.tags}`
         instrucciones.innerHTML += `${data.instructions}`
     
 })

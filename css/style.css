@@ -46,7 +46,8 @@
 .inicio_sesion{
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color:  #c69b7ce5;
+    font-family: Josefin Sans;
 }
 
 
@@ -56,9 +57,9 @@
 
 
 .label {
+    font-family: Josefin Sans;
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
     color: #555;
 }
 
@@ -75,6 +76,7 @@
 .btn {
     width: 100%;
     padding: 10px;
+    font-family: Josefin Sans;
     background-color: #dbbba6;
     color: white;
     border: none;
@@ -94,6 +96,7 @@
     margin-top: 10px;
     color: #c69b7c;
     text-decoration: none;
+    font-family: Josefin Sans;
 }
 
 .registro-link:hover {
@@ -126,7 +129,7 @@
     justify-content: center;  
 }
 .titulo{
-    font-family: Playfair;
+    font-family: Josefin Sans;
     color:  #c69b7ce5;
     font-size: 25px ;
     margin: 0px;
@@ -170,7 +173,7 @@
 }
 .search-button{
     padding: 5px 10px;
-    font-size: 10px;
+    font-size: 15px;
     color: #E6BEAE;
 
 }
@@ -223,9 +226,10 @@
 .CargarMas{
     margin: 20px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     border-radius: 5px;
+    font-family: Josefin Sans;
     background:#c69b7c ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border:#c69b7c;
@@ -245,17 +249,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f9f9f9;
+ font-family: Josefin Sans;
+    background-color: white;
+    height: 80vh;
 }
 
 
 
+
 .register-container {
-    background: #fff;
+    background-color: #e7d4d455;
     padding: 20px 30px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
+    border-radius: 10px;
+    width: 500px;
+    height: 60vh;
 }
 
 .register-form h2 {
@@ -272,12 +279,13 @@
     display: block;
     margin-bottom: 5px;
     color: #555;
+    font-family: Josefin Sans;
 }
 
 .inputt {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -296,7 +304,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    background-color:  #dbbba6;
+    font-family: Josefin Sans;
 }
 
 
@@ -307,6 +315,7 @@
     color:  #dbbba6;
     text-decoration: none;
     text-decoration: underline;
+    font-family: Josefin Sans;
 }
 
 #nombre-receta{
@@ -325,6 +334,10 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.preguntas{
+    font-size: 15px;
 }
 
 .info-receta p {

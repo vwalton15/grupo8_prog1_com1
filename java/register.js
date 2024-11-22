@@ -31,14 +31,17 @@ registro.addEventListener("submit", function (event) {
         validacion = false;
     }
 
-    if ( terms.value === "") {
+
+
+    if (!terms.checked) {
+
         eror_terms.textContent = "Debe aceptar los términos y condiciones";
         validacion = false;
     }
 
   
     if (validacion) {
-        registro.action = "login.html";
+        
         registro.submit();
     }
 });

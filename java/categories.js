@@ -13,9 +13,10 @@ fetch('https://dummyjson.com/recipes/tags')
         const categoria = data[i];
         categorias += 
         `<ol>
-         <li><a href="./category.html?"></a> ${categoria}</li>
+         <li><a href="./category.html?tag=${categoria}"></a> ${categoria}</li>
          </ol>
             `
+           
     }
     itemsCategories.innerHTML = categorias;
 })

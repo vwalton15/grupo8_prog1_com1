@@ -10,18 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="barradenav">
-            <form type action="validarbusqueda" method="get">
-                <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta">
-                <button class= "navegacion"  type="submit" class="button">Buscar</button>
-            </form>
-        </div>
-        <h1 class="titulo"> NOVA</h1>
-        <div class="logo">
-            <img class="img1" src="img/Tsty.png">
-        </div>
-        <nav>
+    <header class="barradenav0">
+        <article class="barradenav">
+            <div class="logo">
+                <img class="img1" src="img/Tsty.png">
+            </div>
+            <div class="titulo-subtitulo-index">
+                <h1 class = "titulo">NOVA</h1>
+                <p class="subtitulo"> El rincon del sabor</p>
+            </div>
+        </article>
+        
+        <nav class="navegador 0">
             <ul class="navegador">
                 <li><a class="link" href="./index.html">HOME</a></li>
                 <li><a class="link" href="./categories.html">CATEGORIAS</a> </li>
@@ -30,7 +30,13 @@
 
             </ul>
         </nav>
-
+        <div class="search-cart">
+        <form type action="validarbusqueda" method="get">
+            <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta">
+            <button class= "search-button"  type="submit" class="button">Buscar</button>
+        </form>
+    </div>
+   
     </header>
 
     <main  class="body_register">
@@ -69,13 +75,13 @@
             </section>
     </main>
     <footer>
-        <footer>
+      
             <ol class="footer">
                 <li class="integrantes">Paloma Frea<br></li>
                 <li class="integrantes">Milagros Galarce<br></li>
                 <li class="integrantes">Victoria Walton <br></li>
             </ol>
-        </footer>
+        
     </footer>
 
     <script src="./java/register.js"></script>

@@ -38,8 +38,8 @@
     background-color: #e7d4d455;
     padding: 20px 30px;
     border-radius: 10px;
-    width: 500px;
-    height: 60vh;
+    width: 529px;
+    height: 37vh;
 }
 
 
@@ -102,13 +102,12 @@
 .registro-link:hover {
     text-decoration: underline;
 }
-.bodyindex{
-    background-image: url(../img/imgfondo.avif);
-}
+
 .navegador0{
     display: flex;
     align-items: right;
     justify-content: center;
+   
    
 }
 
@@ -123,8 +122,6 @@
 .barradenav0{
     display: flex;
     justify-content: space-between;
-    background-image: url(../img/Diseño\ sin\ título\ \(1\).png);
-    
 
     
 }
@@ -185,10 +182,16 @@
 
 }
 .frase-main{
-    font-family: Josefin Sans;
-    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background:#E6BEAE ;
+    padding: 20px 40px;
+    font-family: Playfair;
+    margin: 17px;
     padding: 10px;
-    font-weight: lighter;
+    
 }
 
 .recipeList{
@@ -269,8 +272,9 @@
     background-color: #e7d4d455;
     padding: 20px 30px;
     border-radius: 10px;
-    width: 500px;
-    height: 60vh;
+    
+    width: 581px;
+    height: 41vh;
 }
 
 .register-form h2 {

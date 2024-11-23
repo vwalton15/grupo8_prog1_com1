@@ -118,10 +118,14 @@
     flex-direction: row;
     align-items: left;
     padding:10px;
+    
 }
 .barradenav0{
     display: flex;
     justify-content: space-between;
+    background-image: url(../img/Diseño\ sin\ título\ \(1\).png);
+    
+
     
 }
 .logo{
@@ -156,8 +160,11 @@
     list-style-type: none;
     align-items: center;
     
+    
   
 }
+
+
 .link{
     text-decoration: none;
     color: #555;

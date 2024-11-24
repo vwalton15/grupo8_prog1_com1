@@ -186,7 +186,7 @@
     font-weight: bold;
     text-align: center;
     color: #ffffff;
-    background:#E6BEAE ;
+    background: #c69b7c;
     padding: 20px 40px;
     font-family: Playfair;
     margin: 17px;
@@ -240,7 +240,7 @@
     font-size: 15px;
     color: #ffffff;
     border-radius: 5px;
-    font-family: Josefin Sans;
+    font-family: Playfair;
     background:#c69b7c ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border:#c69b7c;
@@ -260,7 +260,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
- font-family: Josefin Sans;
+    font-family: Playfair;
     background-color: white;
     height: 80vh;
 }
@@ -291,7 +291,7 @@
     display: block;
     margin-bottom: 5px;
     color: #555;
-    font-family: Josefin Sans;
+    font-family: Playfair;
 }
 
 .inputt {
@@ -316,7 +316,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: Josefin Sans;
+    font-family: Playfair;
 }
 
 
@@ -327,13 +327,13 @@
     color:  #dbbba6;
     text-decoration: none;
     text-decoration: underline;
-    font-family: Josefin Sans;
+    font-family: Playfair;
 }
 
 #nombre-receta{
     margin: 30px;
     font-size: 50px;
-    font-family: Josefin Sans;
+    font-family: Playfair;
 }
 #img-receta{
     width: 450px;
@@ -355,16 +355,70 @@
 .info-receta p {
     margin: 10px;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #dbbba6;
     border-radius: 8px;
     text-align: center;
 }
 
-#instrucciones-receta{
-    background: #f1f1f1;
-    padding: 20px;
-    border-radius: 8px;
+
+
+.contenedor_result {
+    max-width: 400px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid  #dbbba6; 
+    border-radius: 5px; 
+    text-align: center;
+    font-family: Playfair;
 }
+
+
+.nombre_search {
+    font-size: 25px; 
+    color: #dbbba6 ;
+    font-family: Playfair;
+    margin-bottom: 10px; 
+}
+
+
+.search_imagen {
+    width: 100%; 
+    max-height: 258px;
+    margin-bottom: 15px;
+}
+
+
+.cocina_search {
+    font-size: 20px;
+    color: black; 
+    margin-bottom: 15px;
+}
+
+
+.search_id {
+   
+   
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: Playfair;
+    background: #c69b7c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: #c69b7c;
+}
+
+.error_busqueda{
+    font-family: Playfair;
+    color: black;
+    font-size: 15px;   
+}
+
+
+
+
+
 @media (max-width: 420px){
 .footer{
     height: 50px;

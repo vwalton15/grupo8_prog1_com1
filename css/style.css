@@ -36,10 +36,10 @@
 
 .login-container {
     background-color: #e7d4d455;
-    padding: 20px 30px;
+    padding: 64px 30px;
     border-radius: 10px;
-    width: 529px;
-    height: 37vh;
+    width: 647px;
+    height: 49vh;
 }
 
 
@@ -134,6 +134,7 @@
     color:  #c69b7ce5;
     font-size: 25px ;
     margin: 0px;
+    margin-bottom: 7px;
 }
 .subtitulo{
     font-size: 15px;
@@ -187,7 +188,7 @@
     color: #ffffff;
     background: #c69b7c;
     padding: 20px 40px;
-    font-family: Playfair;
+    font-family: Josefin Sans;
     margin: 17px;
     padding: 10px;
     
@@ -200,7 +201,7 @@
     justify-content: space-around;
     align-content: center;
     gap: 20px;
-    font-family: Playfair;
+    font-family: Josefin Sans
 }
 
 .recipeList article{
@@ -239,7 +240,7 @@
     font-size: 15px;
     color: #ffffff;
     border-radius: 5px;
-    font-family: Playfair;
+    font-family: Josefin Sans;
     background:#c69b7c ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border:#c69b7c;
@@ -259,7 +260,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Playfair;
+    font-family: Josefin Sans;
     background-color: white;
     height: 80vh;
 }
@@ -268,16 +269,19 @@
 
 
 .register-container {
-    background-color: #e7d4d455;
-    padding: 20px 30px;
-    border-radius: 10px;
     
-    width: 581px;
-    height: 41vh;
+    background-color: #e7d4d455;
+    padding: 64px 30px;
+    border-radius: 10px;
+    width: 647px;
+    height: 49vh;
+    
+    
 }
 
 .register-form h2 {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
+    margin-top: 5px;
     text-align: center;
     color: #dbbba6;
 }
@@ -290,7 +294,7 @@
     display: block;
     margin-bottom: 5px;
     color: #555;
-    font-family: Playfair;
+    font-family: Josefin Sans;
 }
 
 .inputt {
@@ -315,7 +319,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: Playfair;
+    font-family: Josefin Sans
 }
 
 
@@ -325,14 +329,14 @@
     margin-top: 10px;
     color:  #dbbba6;
     text-decoration: none;
-    text-decoration: underline;
-    font-family: Playfair;
+    font-family: Josefin Sans
+    
 }
 
 #nombre-receta{
     margin: 30px;
     font-size: 50px;
-    font-family: Playfair;
+    font-family: Josefin Sans
 }
 #img-receta{
     width: 450px;
@@ -371,20 +375,20 @@
 
 
 .contenedor_result {
-    max-width: 400px; 
-    margin: 20px auto; 
-    padding: 10px;
-    border: 2px solid  #dbbba6; 
-    border-radius: 5px; 
+    max-width: 400px;
+    margin: 29px auto;
+    padding: 21px;
+    border: 2px solid #dbbba6;
+    border-radius: 5px;
     text-align: center;
-    font-family: Playfair;
+    font-family: Josefin Sans;
 }
 
 
 .nombre_search {
     font-size: 25px; 
     color: #dbbba6 ;
-    font-family: Playfair;
+    font-family: Josefin Sans;
     margin-bottom: 10px; 
 }
 
@@ -398,7 +402,7 @@
 
 .cocina_search {
     font-size: 20px;
-    color: black; 
+    color:  #dbbba6; 
     margin-bottom: 15px;
 }
 
@@ -409,14 +413,14 @@
     font-size: 15px;
     color: #ffffff;
     border-radius: 5px;
-    font-family: Playfair;
+    font-family: Josefin Sans;
     background: #c69b7c;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: #c69b7c;
 }
 
 .error_busqueda{
-    font-family: Playfair;
+    font-family: Josefin Sans;
     color: black;
     font-size: 15px;   
 }
@@ -434,7 +438,7 @@
     border-radius: 5px; 
     list-style-type: none;
     text-align: center;
-    font-family: Playfair;
+    font-family: Josefin Sans
 }
 .categoria-nombre{
     text-align: center;

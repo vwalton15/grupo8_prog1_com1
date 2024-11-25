@@ -10,18 +10,18 @@
     <title>Categoria</title>
 </head>
 <body>
-    <header>
-        <div class="barradenav">
-            <form type action="./search-results.html" method="get">
-                <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta" required>
-                <button class= "search-button"  type="submit" class="button">Buscar</button>
-            </form>
-        </div>
-        <h1 class="titulo"> NOVA</h1>
-        <div class="logo">
-            <img class="img1" src="img/Tsty.png">
-        </div>
-        <nav>
+    <header class="barradenav0">
+        <article class="barradenav">
+            <div class="logo">
+                <img class="img1" src="img/Tsty.png">
+            </div>
+            <div class="titulo-subtitulo-index">
+                <h1 class = "titulo">NOVA</h1>
+                <p class="subtitulo"> El rincon del sabor</p>
+            </div>
+        </article>
+        
+        <nav class="navegador">
             <ul class="navegador">
                 <li><a class="link" href="./index.html">HOME</a></li>
                 <li><a class="link" href="./categories.html">CATEGORIAS</a> </li>
@@ -30,6 +30,13 @@
 
             </ul>
         </nav>
+        <div class="search-cart">
+            <form type action="./search-results.html" method="get">
+                <input name= "search" type="search" id="search-bar" value="" class="preguntas" placeholder="Buscar receta" required>
+                <button class= "search-button"  type="submit" class="button">Buscar</button>
+            </form>
+    </div>
+   
     </header>
     <main>
         <ul class="lista-categorias"></ul>

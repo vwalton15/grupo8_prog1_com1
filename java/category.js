@@ -25,7 +25,7 @@ fetch (`https://dummyjson.com/recipes`)
                             <h2 class="categoria-titulo">${recetario.name}</h2>
                             <img class="categoria-img" src="${recetario.image}" alt="${recetario.name}">
                             <p class="categoria-dificultad">Difficulty: ${recetario.difficulty}</p>
-                            <a href="./receta.html?id=${recetario.id} class="categoria-link">Ver detalle</a>
+                            <a href="./receta.html?id=${recetario.id}" class="categoria-link">Ver detalle</a>
                         </li>`
                 }
                 

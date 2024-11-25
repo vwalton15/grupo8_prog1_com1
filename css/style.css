@@ -345,6 +345,10 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    background-image: url("/Users/vickywalton/Library/Mobile Documents/com~apple~CloudDocs/Desktop/UDESA/Programacion 1/grupo8_prog1_com1/grupo8_prog1_com1/img/c3f7568a-21c0-4a9c-849b-e68079883d71.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .preguntas{
@@ -359,7 +363,7 @@
 .info-receta p {
     margin: 10px;
     padding: 10px;
-    background-color: #dbbba6;
+    background-color: #d0beb3;
     border-radius: 8px;
     text-align: center;
 }
@@ -431,6 +435,10 @@
     list-style-type: none;
     text-align: center;
     font-family: Playfair;
+}
+.categoria-nombre{
+    text-align: center;
+    margin: 10px;
 }
 
 .categoria-titulo{

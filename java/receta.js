@@ -18,7 +18,7 @@ fetch(url)
     
         nombre.innerHTML += `${data.name}`
         imagen.src = `${data.image}`
-        tiempo.innerHTML += `${data.cookTimeMinutes}`
+        tiempo.innerHTML += `${data.cookTimeMinutes} minutos`
         categoria.innerHTML += `${data.tags}`
         instrucciones.innerHTML += `${data.instructions}`
     
@@ -27,3 +27,4 @@ fetch(url)
 	    console.log(error);
 })
 
+ 

@@ -463,6 +463,28 @@
     color: #e8b19b;
     font-style: initial;
 }
+.lista_categories{
+    list-style-type: none;
+    background-color: #c69b7c;
+    margin: 15px; 
+}
+.lista_categories a{
+    
+}
+.itemsCategories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lista
+.titulocategorias{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Josefin Sans;
+    font-size: 35px;
+}
 
 
 @media (max-width: 420px){
@@ -493,10 +515,22 @@
 .link{
     padding: 0px;
 }
+.barradenav0{
+    display: flex;
+    flex-direction: column;
+}
 .navegador{
-    display:flex;
-    justify-content: space-between;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-cart{
+    margin: 30px;
+    justify-content: center;
+}
+.link{
+    margin: 30px;
+    background-color: #c69b7c;
 }
 }
 

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .footer{
     color: white;
     background-color: #c69b7c;
@@ -271,10 +272,10 @@
 .register-container {
     
     background-color: #e7d4d455;
-    padding: 64px 30px;
+    padding: 45px 20px;
     border-radius: 10px;
     width: 647px;
-    height: 49vh;
+    height: 52vh;
     
     
 }
@@ -327,7 +328,7 @@
     text-align: center;
     display: block;
     margin-top: 10px;
-    color:  #dbbba6;
+    color: #c69b7c;
     text-decoration: none;
     font-family: Josefin Sans
     
@@ -516,38 +517,98 @@
     background-color: #e8b19b;
     color: #fff;
 }
+/* Css de detalle receta */
+
+.maindetalle{
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.info-receta {
+    max-width: 800px;
+    margin: 0 auto; /* arreglar para que quede cnetrado no con auto*/
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#nombre-receta{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #c69b7c;
+}
+
+ #img-receta{
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+#tiempo-receta{
+    font-weight: normal;
+    color:#c69b7c;
+    background-color:#dbbba664;
+
+} 
+#categoria-receta {
+    font-weight: normal;
+    
+    color:#c69b7c;
+    background-color:#dbbba664;
+}
+
+#instrucciones-receta {
+    font-family: Josefin Sans;
+    font-size: 17px;
+    font-weight: normal;
+    color:#c69b7c;
+    background-color:#dbbba664;
+   
+}
+.tituloduracion, .instrucciones{
+    color: #c69b7c;
+    text-align: center;
+    margin: 15px;
+}
+
 
 @media (max-width: 420px){
 .footer{
     height: 50px;
     border-radius: 20px;
+    text-align: center;
 }
 .titulo{
     padding: 20px;
 }
 .tituloprincipal{
     text-align: center;
-    padding: 15px;
+    padding: 14px;
 }
 .padrebtn{
     display: flex;
     justify-content: center;
 }
 .integrantes{
-    font-size: 18px;
+    font-size: 15px;
     margin: 0px;
+    
 }
 .footer{
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.link{
-    padding: 0px;
-}
+
 .barradenav0{
     display: flex;
     flex-direction: column;
+    
 }
 .navegador{
     display: flex;
@@ -558,9 +619,39 @@
     margin: 30px;
     justify-content: center;
 }
+.barradenav{
+   display: flex;
+   justify-content: center;
+}
 .link{
-    margin: 30px;
+    margin: 50px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+
+}
+.lista{
+    text-align: center;
     background-color: #c69b7c;
+    width: 500px;
+    padding: 2px;
+    margin: 5px;
+}
+.login-container{
+    padding: 30px;
+    margin: 15px;
+}
+.body_login{
+    height: 400px;
+    margin-bottom: 50px;
+}
+.register-container{
+    padding: 25px;
+    margin: 25px;
+}
+.body_register{
+    height: 400px;
+    margin-bottom: 50px;
 }
 }
 

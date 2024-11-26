@@ -464,7 +464,7 @@
     color: #e8b19b;
     font-style: initial;
 }
-/*categorias css*/
+
 .mainn{
     display: flex;
     justify-content: center;
@@ -517,7 +517,7 @@
     background-color: #e8b19b;
     color: #fff;
 }
-/* Css de detalle receta */
+
 
 .maindetalle{
     padding: 40px;
@@ -526,7 +526,7 @@
 
 .info-receta {
     max-width: 800px;
-    margin: 0 auto; /* arreglar para que quede cnetrado no con auto*/
+    margin: 0 auto; 
     padding: 20px;
     background-color: white;
     border-radius: 8px;
@@ -576,6 +576,52 @@
     margin: 15px;
 }
 
+@media (max-width: 420px) {
+    
+.mainn {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+    
+.titulocategorias {
+    font-size: 25px;
+    padding: 15px;
+}
+
+    
+.listacategories {
+    padding: 5px;
+}
+
+  
+.itemsCategories {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 10px;
+    align-items: stretch;
+}
+
+
+.categories1 {
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.categories1:hover {
+    background-color: #e8b19b;
+    color: #fff;
+}
+
+
+.maindetalle {
+    padding: 20px;
+}
+}
 
 @media (max-width: 420px){
 .footer{
@@ -653,5 +699,6 @@
     height: 400px;
     margin-bottom: 50px;
 }
-}
 
+
+}

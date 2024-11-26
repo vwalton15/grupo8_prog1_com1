@@ -463,28 +463,6 @@
     color: #e8b19b;
     font-style: initial;
 }
-.lista_categories{
-    list-style-type: none;
-    background-color: #c69b7c;
-    margin: 15px; 
-}
-.lista_categories a{
-    
-}
-.itemsCategories{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.lista
-.titulocategorias{
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    font-family: Josefin Sans;
-    font-size: 35px;
-}
 
 
 @media (max-width: 420px){

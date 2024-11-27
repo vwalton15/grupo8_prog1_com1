@@ -1,36 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.footer{
+.footer {
     color: white;
     background-color: #c69b7c;
     justify-content: center;
     display: flex;
-    padding: 30px ;
+    padding: 30px;
     border-radius: 50px;
 
 }
 
-.integrantes{
+.integrantes {
     margin: 10px;
     font-size: 20px;
-    list-style:none ;
+    list-style: none;
     font-family: Josefin Sans
-   
 }
 
 
-.body_login{
+.body_login {
     font-family: Josefin Sans;
-    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
+    padding: 40px;
+    background-color: #f8f8f8;
 
 }
 
@@ -44,10 +44,10 @@
 }
 
 
-.inicio_sesion{
+.inicio_sesion {
     text-align: center;
     margin-bottom: 20px;
-    color:  #c69b7ce5;
+    color: #c69b7ce5;
     font-family: Josefin Sans;
 }
 
@@ -83,11 +83,11 @@
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    
+
 }
 
 .btn:hover {
-    background-color:#dbbba6;
+    background-color: #dbbba6;
 }
 
 
@@ -104,85 +104,99 @@
     text-decoration: underline;
 }
 
-.navegador0{
+.navegador0 {
     display: flex;
     align-items: right;
     justify-content: center;
-   
-   
+
+
 }
 
 
-.barradenav{
+.barradenav {
     display: flex;
     flex-direction: row;
     align-items: left;
-    padding:10px;
-    
+    padding: 10px;
+
 }
-.barradenav0{
+
+.barradenav0 {
     display: flex;
     justify-content: space-between;
 
-    
+
 }
-.logo{
+
+.logo {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
-.titulo{
+
+.titulo {
     font-family: Josefin Sans;
-    color:  #c69b7ce5;
-    font-size: 25px ;
+    color: #c69b7ce5;
+    font-size: 25px;
     margin: 0px;
     margin-bottom: 7px;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 15px;
     color: #555;
     font-family: Josefin Sans;
 
 }
-.titulo-subtitulo-index{
+
+.titulo-subtitulo-index {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
-.img1{
-   width: 120px;
-  
+
+.img1 {
+    width: 120px;
+
 }
-.navegador{
-    display:flex;
+
+.navegador {
+    display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    
-    
-  
+
+
+
 }
 
+.maincategory{
+    padding: 40px;
+    background-color: #f8f8f8;
+}
 
-.link{
+.link {
     text-decoration: none;
     color: #555;
     font-family: Josefin Sans;
     padding: 10px;
     margin: 20px;
 }
-.search-cart{
+
+.search-cart {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
 }
-.search-button{
+
+.search-button {
     padding: 5px 10px;
     font-size: 15px;
     color: #E6BEAE;
 }
-.frase-main{
+
+.frase-main {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -192,10 +206,10 @@
     font-family: Josefin Sans;
     margin: 17px;
     padding: 10px;
-    
+
 }
 
-.recipeList{
+.recipeList {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -205,53 +219,55 @@
     font-family: Josefin Sans
 }
 
-.recipeList article{
+.recipeList article {
     width: 250px;
     border: 2px solid #EEE4E1;
     border-radius: 8px;
     box-shadow: 5px;
 }
 
-.recipeList article p{
+.recipeList article p {
     margin: 10px;
     font-size: 17px;
 }
 
-.recipeList article p a{
+.recipeList article p a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
 
-.recipeList article p a:hover{
+.recipeList article p a:hover {
     text-decoration: underline;
     color: #C5A38F;
 }
 
-.img-recipe{
+.img-recipe {
     width: 246px;
     border-bottom: 2px solid #EEE4E1;
     color: #333;
     border-radius: 7px;
 }
 
-.CargarMas{
+.CargarMas {
     margin: 20px;
     padding: 10px;
     font-size: 15px;
     color: #ffffff;
     border-radius: 5px;
     font-family: Josefin Sans;
-    background:#c69b7c ;
+    background: #c69b7c;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border:#c69b7c;
-}
-.CargarMas:hover{
-    background-color: #EEE4E1;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);;
+    border: #c69b7c;
 }
 
-.padrebtn{
+.CargarMas:hover {
+    background-color: #EEE4E1;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.padrebtn {
     display: flex;
     justify-content: center;
 }
@@ -262,22 +278,23 @@
     justify-content: center;
     align-items: center;
     font-family: Josefin Sans;
-    background-color: white;
     height: 80vh;
+    padding: 40px;
+    background-color: #f8f8f8;
 }
 
 
 
 
 .register-container {
-    
+
     background-color: #e7d4d455;
     padding: 45px 20px;
     border-radius: 10px;
     width: 647px;
     height: 52vh;
-    
-    
+
+
 }
 
 .register-form h2 {
@@ -314,7 +331,7 @@
 .boton {
     width: 100%;
     padding: 10px;
-    background-color:   #dbbba6;
+    background-color: #dbbba6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -331,21 +348,21 @@
     color: #c69b7c;
     text-decoration: none;
     font-family: Josefin Sans
-    
 }
 
-#nombre-receta{
+#nombre-receta {
     margin: 30px;
     font-size: 50px;
     font-family: Josefin Sans
 }
-#img-receta{
+
+#img-receta {
     width: 450px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
 
-.info-receta{
+.info-receta {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,7 +373,7 @@
     background-size: cover;
 }
 
-.preguntas{
+.preguntas {
     font-size: 16px;
     border-color: #eee;
     border: none;
@@ -387,15 +404,15 @@
 
 
 .nombre_search {
-    font-size: 25px; 
-    color: #dbbba6 ;
+    font-size: 25px;
+    color: #dbbba6;
     font-family: Josefin Sans;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 
 .search_imagen {
-    width: 100%; 
+    width: 100%;
     max-height: 258px;
     margin-bottom: 15px;
 }
@@ -403,7 +420,7 @@
 
 .cocina_search {
     font-size: 20px;
-    color:  #dbbba6; 
+    color: #dbbba6;
     margin-bottom: 15px;
 }
 
@@ -420,72 +437,85 @@
     border: #c69b7c;
 }
 
-.error_busqueda{
+.error_busqueda {
     font-family: Josefin Sans;
     color: black;
-    font-size: 15px;   
+    font-size: 15px;
 }
 
-.lista-categorias{
+.lista-categorias {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px;
 }
 
-.lista-categorias li{
+.lista-categorias li {
     margin: 6px;
-    border: 2px solid  #dbbba6; 
-    border-radius: 5px; 
+    border: 2px solid #dbbba6;
+    border-radius: 5px;
     list-style-type: none;
     text-align: center;
     font-family: Josefin Sans
 }
-.categoria-nombre{
+
+.categoria-nombre {
     text-align: center;
     margin: 10px;
+    color:#c69b7c;
+}
+.categoria-dificultad{
+    color:#c69b7c;
 }
 
-.categoria-titulo{
+
+
+.categoria-titulo {
     margin: 5px;
+    color:#dbbba6;
 }
 
-.categoria-img{
+.categoria-img {
     width: 390px;
     border-radius: 4px;
     border-bottom: 2px solid #dbbba6;
     border-top: 2px solid #dbbba6;
 }
-.lista-categorias a{
+
+.lista-categorias a {
     text-decoration: none;
-    color: black;
+    color:#c69b7c;
 }
-.lista-categorias a:hover { 
+
+.lista-categorias a:hover {
     color: #e8b19b;
     font-style: initial;
 }
 
-.mainn{
+.mainn {
     display: flex;
     justify-content: center;
-   margin: 25px;
-    padding:20px;
+    margin: 25px;
+    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     font-family: Josefin Sans;
 }
-.listacategories{
-   padding-bottom: 10px;
+
+.listacategories {
+    padding-bottom: 10px;
     text-align: center;
 }
-.titulocategorias{
+
+.titulocategorias {
     font-family: Josefin Sans;
     font-weight: bold;
-    color:#e8b19b;
+    color:#c69b7c;
     text-align: center;
-   padding: 25px;
+    padding: 25px;
 }
-.itemsCategories{
+
+.itemsCategories {
     display: flex;
     flex-wrap: wrap;
     margin-left: 25px;
@@ -493,11 +523,13 @@
     align-items: center;
 
 }
-.categories{
+
+.categories {
     list-style: none;
 
 }
-.categories1{
+
+.categories1 {
     padding: 15px 10px;
     font-size: 16px;
     font-weight: bold;
@@ -506,110 +538,12 @@
     border: 2px solid #e8b19b;
     border-radius: 5px;
     text-align: center;
-    text-decoration: none;  
+    text-decoration: none;
     width: 200px;
     height: 120px;
-    display: flex;  
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.categories1:hover{
-    background-color: #e8b19b;
-    color: #fff;
-}
-
-
-.maindetalle{
-    padding: 40px;
-    background-color: #f8f8f8;
-}
-
-.info-receta {
-    max-width: 800px;
-    margin: 0 auto; 
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-#nombre-receta{
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #c69b7c;
-}
-
- #img-receta{
-    width: 600px;
-    height: 600px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-
-
-#tiempo-receta{
-    font-weight: normal;
-    color:#c69b7c;
-    background-color:#dbbba664;
-
-} 
-#categoria-receta {
-    font-weight: normal;
-    
-    color:#c69b7c;
-    background-color:#dbbba664;
-}
-
-#instrucciones-receta {
-    font-family: Josefin Sans;
-    font-size: 17px;
-    font-weight: normal;
-    color:#c69b7c;
-    background-color:#dbbba664;
-   
-}
-.tituloduracion, .instrucciones{
-    color: #c69b7c;
-    text-align: center;
-    margin: 15px;
-}
-
-@media (max-width: 420px) {
-    
-.mainn {
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-}
-
-    
-.titulocategorias {
-    font-size: 25px;
-    padding: 15px;
-}
-
-    
-.listacategories {
-    padding: 5px;
-}
-
-  
-.itemsCategories {
-    flex-direction: column;
-    margin-left: 0;
-    gap: 10px;
-    align-items: stretch;
-}
-
-
-.categories1 {
-    font-size: 14px;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .categories1:hover {
@@ -619,86 +553,210 @@
 
 
 .maindetalle {
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.info-receta {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-}
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 420px){
-.footer{
-    height: 50px;
-    border-radius: 20px;
+#nombre-receta {
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #c69b7c;
 }
-.titulo{
-    padding: 20px;
+
+#img-receta {
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
-.tituloprincipal{
+
+
+
+#tiempo-receta {
+    font-weight: normal;
+    color: #c69b7c;
+    background-color: #dbbba664;
+
+}
+
+#categoria-receta {
+    font-weight: normal;
+
+    color: #c69b7c;
+    background-color: #dbbba664;
+}
+
+#instrucciones-receta {
+    font-family: Josefin Sans;
+    font-size: 17px;
+    font-weight: normal;
+    color: #c69b7c;
+    background-color: #dbbba664;
+
+}
+
+.tituloduracion,
+.instrucciones {
+    color: #c69b7c;
     text-align: center;
-    padding: 14px;
-}
-.padrebtn{
-    display: flex;
-    justify-content: center;
-}
-.integrantes{
-    font-size: 15px;
-    margin: 0px;
-    
-}
-.footer{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.barradenav0{
-    display: flex;
-    flex-direction: column;
-    
-}
-.navegador{
-    display: flex;
-    flex-direction: column;
-}
-
-.search-cart{
-    margin: 30px;
-    justify-content: center;
-}
-.barradenav{
-   display: flex;
-   justify-content: center;
-}
-.link{
-    margin: 50px;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-
-}
-.lista{
-    text-align: center;
-    background-color: #c69b7c;
-    width: 500px;
-    padding: 2px;
-    margin: 5px;
-}
-.login-container{
-    padding: 30px;
     margin: 15px;
 }
-.body_login{
-    height: 400px;
-    margin-bottom: 50px;
+.mainsearch{
+    padding: 20px;
+    background-color: #f9f9f9
+
 }
-.register-container{
-    padding: 25px;
-    margin: 25px;
+
+@media (max-width: 420px) {
+
+    .mainn {
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .titulocategorias {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+
+    .listacategories {
+        padding: 5px;
+    }
+
+
+    .itemsCategories {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+
+    .categories1 {
+        font-size: 14px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .categories1:hover {
+        background-color: #e8b19b;
+        color: #fff;
+    }
+
+
+    .maindetalle {
+        padding: 20px;
+    }
 }
-.body_register{
-    height: 400px;
-    margin-bottom: 50px;
-}
+
+@media (max-width: 420px) {
+    .footer {
+        height: 50px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .titulo {
+        padding: 20px;
+    }
+
+    .tituloprincipal {
+        text-align: center;
+        padding: 14px;
+    }
+
+    .padrebtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .integrantes {
+        font-size: 15px;
+        margin: 0px;
+
+    }
+
+    .footer {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .barradenav0 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .search-cart {
+        margin: 30px;
+        justify-content: center;
+    }
+
+    .barradenav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link {
+        margin: 50px;
+        padding: 5px;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    .lista {
+        
+        background-color: #c69b7c;
+        width: 400px;
+        padding: 2px;
+        margin: 5px;
+        
+    }
+
+    .login-container {
+        padding: 30px;
+        margin: 15px;
+    }
+
+    .body_login {
+        height: 400px;
+        margin-bottom: 50px;
+    }
+
+    .register-container {
+        padding: 25px;
+        margin: 25px;
+    }
+
+    .body_register {
+        height: 400px;
+        margin-bottom: 50px;
+    }
 
 
 }

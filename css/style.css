@@ -171,7 +171,6 @@
 }
 
 .maincategory{
-    padding: 40px;
     background-color: #f8f8f8;
 }
 
@@ -367,10 +366,6 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    background-image: url("/Users/vickywalton/Library/Mobile Documents/com~apple~CloudDocs/Desktop/UDESA/Programacion 1/grupo8_prog1_com1/grupo8_prog1_com1/img/c3f7568a-21c0-4a9c-849b-e68079883d71.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .preguntas {
@@ -446,8 +441,8 @@
 .lista-categorias {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 20px;
+    justify-content:space-around;
+    align-items: center;
 }
 
 .lista-categorias li {
@@ -467,7 +462,6 @@
 .categoria-dificultad{
     color:#c69b7c;
 }
-
 
 
 .categoria-titulo {
@@ -575,7 +569,6 @@
 
 #img-receta {
     width: 600px;
-    height: 600px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -591,9 +584,13 @@
 
 #categoria-receta {
     font-weight: normal;
-
     color: #c69b7c;
     background-color: #dbbba664;
+}
+#categoria-receta a{
+    text-decoration: none;
+    margin: 6px;
+    color: #c69b7c;
 }
 
 #instrucciones-receta {
@@ -662,9 +659,7 @@
     .maindetalle {
         padding: 20px;
     }
-}
 
-@media (max-width: 420px) {
     .footer {
         height: 50px;
         border-radius: 20px;
@@ -758,5 +753,15 @@
         margin-bottom: 50px;
     }
 
+    #img-receta{
+        width: 180px;
+    }
+    #nombre-receta{
+        font-size: 30px;
+    }
+    .lista-categorias{
+        width: 30%;
+        justify-content:space-around
+    }
 
 }

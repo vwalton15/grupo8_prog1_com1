@@ -19,7 +19,12 @@ fetch(url)
         nombre.innerHTML += `${data.name}`
         imagen.src = `${data.image}`
         tiempo.innerHTML += `${data.cookTimeMinutes} minutos`
-        categoria.innerHTML += `${data.tags}`
+
+        if (data.tags && data.tags.length > 0)
+           for (let index = 0; index < data.tags.length; index++) {
+            const tag = data.tags[index]
+            categoria.innerHTML += `<a href="category.html?tag=${tag}" class="categoria-link">| ${tag} | </a>`
+        }
         instrucciones.innerHTML += `${data.instructions}`
 
     })

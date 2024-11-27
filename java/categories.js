@@ -16,11 +16,7 @@ fetch('https://dummyjson.com/recipes/tags')
          <ol class="lista_categories">
            <li class="categories"><a class="categories1" href="./category.html?tag=${categoria}">${categoria}</a></li>
          </ol>
-      
             `
-
-
-
         }
         itemsCategories.innerHTML = categorias;
     })

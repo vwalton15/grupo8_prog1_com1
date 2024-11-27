@@ -333,7 +333,9 @@
     align-items: center;
     color: #555;
 }
-
+#terminos{
+    margin: 10px;
+}
 .boton {
     width: 100%;
     padding: 10px;
@@ -460,6 +462,7 @@
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
+    margin: 50px;
 }
 
 .lista-categorias li {
@@ -473,7 +476,7 @@
 
 .categoria-nombre {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
     color:#c69b7c;
 }
 .categoria-dificultad{

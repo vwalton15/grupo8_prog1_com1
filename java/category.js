@@ -1,20 +1,21 @@
 let queryString = window.location.search;
 let parametro = new URLSearchParams(queryString);
 let categoria = parametro.get("tag");
+console.log(categoria)
 
 const ListaRecetas = document.querySelector(".lista-categorias")
 
 let nombreCategoria = document.querySelector(".categoria-nombre")
 nombreCategoria.textContent = `Categoria: ${categoria}`
 
-fetch (`https://dummyjson.com/recipes`)
+fetch (`https://dummyjson.com/recipes?limit=50`)
     .then(function(response){
 	return response.json();
 })
 	.then(function(data){
     const recetas = data.recipes;
+    console.log(recetas)
     const ListaRecetas = document.querySelector(".lista-categorias")
-    let receta = "";
 
     for (let i = 0; i < recetas.length; i++) {
         const recetario = recetas[i];
@@ -29,8 +30,7 @@ fetch (`https://dummyjson.com/recipes`)
                             <p class="categoria-dificultad">Difficulty: ${recetario.difficulty}</p>
                             <a href="./receta.html?id=${recetario.id}" class="categoria-link">Ver detalle</a>
                         </li>`
-                }
-                
+                } 
             }
         }  
         else {

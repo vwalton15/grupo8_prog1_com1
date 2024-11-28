@@ -19,7 +19,7 @@
     margin: 10px;
     font-size: 20px;
     list-style: none;
-    font-family: Josefin Sans
+    font-family: Josefin Sans;
 }
 
 
@@ -361,7 +361,9 @@
 #nombre-receta {
     margin: 30px;
     font-size: 50px;
-    font-family: Josefin Sans
+    font-family: Josefin Sans;
+    color: #c69b7c;
+
 }
 
 #img-receta {
@@ -460,9 +462,9 @@
 .lista-categorias {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    margin: 50px;
+    margin-bottom: 30px;
 }
 
 .lista-categorias li {
@@ -504,6 +506,15 @@
 .lista-categorias a:hover {
     color: #e8b19b;
     font-style: initial;
+}
+.categoria-link:hover{
+    color: #c69b7c;
+}
+
+.categoriadetalle-link{
+    text-decoration: none;
+    color: #c69b7c;
+    font-size: 20px;
 }
 
 .mainn {
@@ -778,10 +789,14 @@
     }
     #nombre-receta{
         font-size: 30px;
+        text-align: center;
     }
-    .lista-categorias{
-        width: 30%;
-        justify-content:space-around
+    .lista-categorias {
+        margin-bottom: 30px;
+
+    }
+    .categoria-img{
+        width: 45%;
     }
 
 }

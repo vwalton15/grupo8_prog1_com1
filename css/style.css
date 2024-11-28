@@ -468,34 +468,44 @@
 }
 
 .lista-categorias li {
-    margin: 6px;
-    border: 2px solid #dbbba6;
+    max-width: 404px;
+    box-sizing: border-box;
+    margin: 29px auto;
+    padding: 34px;
+    background-color: white;
     border-radius: 5px;
-    list-style-type: none;
     text-align: center;
-    font-family: Josefin Sans
+    font-family: Josefin Sans;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .categoria-nombre {
+ 
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
-    margin: 20px;
-    color:#c69b7c;
+    color: #ffffff;
+    background: #c69b7c;
+    font-family: Noto Serif;
+    margin: 17px;
+    padding: 10px;
 }
 .categoria-dificultad{
     color:#c69b7c;
+    margin-top: 15px;
 }
 
 
 .categoria-titulo {
     margin: 5px;
+    margin-bottom: 15px;
     color:#dbbba6;
 }
 
 .categoria-img{
-    width: 390px;
+    width: 326px;
     border-radius: 4px;
-    border-bottom: 2px solid #dbbba6;
-    border-top: 2px solid #dbbba6;
+
 }
 
 .lista-categorias a {
@@ -533,11 +543,16 @@
 }
 
 .titulocategorias {
-    font-family: Josefin Sans;
+   
+    font-size: 30px;
     font-weight: bold;
-    color:#c69b7c;
     text-align: center;
-    padding: 25px;
+    color: #ffffff;
+    background: #c69b7c;
+    padding: 20px 40px;
+    font-family: Noto Serif;
+    margin: 17px;
+    padding: 10px;
 }
 
 .itemsCategories {

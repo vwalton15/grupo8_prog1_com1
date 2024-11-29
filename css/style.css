@@ -148,7 +148,7 @@
 
 }
 
-.tituloregistro{
+.tituloregistro {
     text-align: center;
     margin-bottom: 20px;
     color: #c69b7ce5;
@@ -177,7 +177,7 @@
 
 }
 
-.maincategory{
+.maincategory {
     background-color: #f8f8f8;
 }
 
@@ -333,9 +333,11 @@
     align-items: center;
     color: #555;
 }
-#terminos{
+
+#terminos {
     margin: 10px;
 }
+
 .boton {
     width: 100%;
     padding: 10px;
@@ -396,11 +398,11 @@
     text-align: center;
 }
 
-.result{
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-    justify-content: center; 
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .contenedor_result {
@@ -425,8 +427,8 @@
 
 
 .search_imagen {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -480,7 +482,7 @@
 }
 
 .categoria-nombre {
- 
+
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -490,8 +492,9 @@
     margin: 17px;
     padding: 10px;
 }
-.categoria-dificultad{
-    color:#c69b7c;
+
+.categoria-dificultad {
+    color: #c69b7c;
     margin-top: 15px;
 }
 
@@ -499,10 +502,10 @@
 .categoria-titulo {
     margin: 5px;
     margin-bottom: 15px;
-    color:#dbbba6;
+    color: #dbbba6;
 }
 
-.categoria-img{
+.categoria-img {
     width: 326px;
     border-radius: 4px;
 
@@ -510,18 +513,19 @@
 
 .lista-categorias a {
     text-decoration: none;
-    color:#c69b7c;
+    color: #c69b7c;
 }
 
 .lista-categorias a:hover {
     color: #e8b19b;
     font-style: initial;
 }
-.categoria-link:hover{
+
+.categoria-link:hover {
     color: #c69b7c;
 }
 
-.categoriadetalle-link{
+.categoriadetalle-link {
     text-decoration: none;
     color: #c69b7c;
     font-size: 20px;
@@ -542,7 +546,7 @@
 }
 
 .titulocategorias {
-   
+
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -632,7 +636,8 @@
     color: #c69b7c;
     background-color: #dbbba664;
 }
-#categoria-receta a{
+
+#categoria-receta a {
     text-decoration: none;
     margin: 6px;
     color: #c69b7c;
@@ -653,7 +658,8 @@
     text-align: center;
     margin: 15px;
 }
-.mainsearch{
+
+.mainsearch {
     padding: 20px;
     background-color: #f8f8f8;
 
@@ -770,12 +776,12 @@
     }
 
     .lista {
-        
+
         background-color: #c69b7c;
         width: 400px;
         padding: 2px;
         margin: 5px;
-        
+
     }
 
     .login-container {
@@ -798,18 +804,21 @@
         margin-bottom: 50px;
     }
 
-    #img-receta{
+    #img-receta {
         width: 180px;
     }
-    #nombre-receta{
+
+    #nombre-receta {
         font-size: 30px;
         text-align: center;
     }
+
     .lista-categorias {
         margin-bottom: 30px;
 
     }
-    .categoria-img{
+
+    .categoria-img {
         width: 45%;
     }
 

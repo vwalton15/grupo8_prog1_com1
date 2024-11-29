@@ -21,10 +21,10 @@ fetch(url)
         tiempo.innerHTML += `${data.cookTimeMinutes} minutos`
 
         if (data.tags && data.tags.length > 0)
-           for (let index = 0; index < data.tags.length; index++) {
-            const tag = data.tags[index]
-            categoria.innerHTML += `<a href="category.html?tag=${tag}" class="categoriadetalle-link">| ${tag} |</a>`
-        }
+            for (let index = 0; index < data.tags.length; index++) {
+                const tag = data.tags[index]
+                categoria.innerHTML += `<a href="category.html?tag=${tag}" class="categoriadetalle-link">| ${tag} |</a>`
+            }
         instrucciones.innerHTML += `${data.instructions}`
 
     })

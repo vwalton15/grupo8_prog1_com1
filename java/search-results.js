@@ -4,15 +4,18 @@ let obj = new URLSearchParams(queryString);
 let busqueda = obj.get("search");
 console.log(busqueda);
 
-fetch(`https://dummyjson.com/recipes/search?q=${busqueda}`)
-   .then(function (response) {
-      return response.json();
-   })
+let contenedor = document.querySelector(".result")
+
+if (busqueda.length < 3) {
+   contenedor.innerHTML = `<h3 class="error_busqueda">El término de búsqueda debe tener al menos 3 caracteres.</h3>`;
+} else {
+   fetch(`https://dummyjson.com/recipes/search?q=${busqueda}`)
+      .then(function (response) {
+         return response.json();
+    })
 
    .then(function (data) {
       let result = data.recipes;
-      let contenedor = document.querySelector(".result")
-
 
       if (!result || result.length === 0) {
          let mensajeError = `<h3 class="error_busqueda">No hay coincidencias disponibles.
@@ -43,3 +46,4 @@ fetch(`https://dummyjson.com/recipes/search?q=${busqueda}`)
       console.log(`Se encuentra un error en : ${error}`);
 
    });
+}
